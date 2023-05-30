@@ -1,7 +1,8 @@
 export function headerSection() {
-  const pageContent = document.createElement("div");
+  const pageContent = document.createElement("header");
 
-  pageContent.innerHTML = `<header>
+  pageContent.innerHTML = `
+      <div class="container">
       <h1>Welcome to the Fake Restaurant</h1>
       <nav>
         <ul>
@@ -10,7 +11,7 @@ export function headerSection() {
           <li><a id="contactBtn" href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </header>`;
+      </div>`;
 
   return pageContent;
 }

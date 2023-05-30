@@ -1,10 +1,9 @@
 export function footerSection() {
-  const pageContent = document.createElement("div");
+  const pageContent = document.createElement("footer");
 
   pageContent.innerHTML = `
-    <footer>
-      <p>&copy; 2023 Fake Restaurant. All rights reserved.</p>
-    </footer> `;
+      <p class="container">&copy; 2023 Fake Restaurant. All rights reserved.</p>
+ `;
 
   return pageContent;
 }

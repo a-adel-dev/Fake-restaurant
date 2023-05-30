@@ -1,7 +1,8 @@
 export function menuSection() {
-  const pageContent = document.createElement("div");
+  const pageContent = document.createElement("section");
 
   pageContent.innerHTML = `
+    <div class="container">
       <h2>Our Menu</h2>
       <p>
         Explore our diverse menu featuring a wide range of culinary delights:
@@ -15,7 +16,8 @@ export function menuSection() {
       <p>
         Whether you're a vegetarian, a seafood lover, or a meat enthusiast, we
         have something for everyone.
-      </p>;`;
+      </p>
+      </div>`;
 
   return pageContent;
 }
