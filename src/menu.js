@@ -62,6 +62,8 @@ export function menuSection() {
   cardContainer.children[3].appendChild(drinksDescription);
 
   const outroText = document.createElement("p");
+  outroText.classList.add("menu-outro");
+
   outroText.innerHTML =
     "Whether you're a vegetarian, a seafood lover, or a meat enthusiast, we have something for everyone.";
 
